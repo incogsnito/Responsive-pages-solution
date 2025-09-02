@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  
+}
+:root{
+  --color-1: #824936;
+  --color-2:#F3EED9;
+  --color-3: #222c2a;
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url("Roboto-VariableFont_wdth\,wght.ttf" ) format("truetype")
+}
+
+@font-face{
+  font-family: "Playfair";
+  src: url("/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("ttf")
+}
+body{
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.hero{
+  padding: 3em 0;
+  background-color: var(--color-2);
+  min-height: 660px; /*used to create a good amount of space in first layout */
+
+}
+
+.row{
+  display: flex;
+  align-items: center;
+
+}
+
+p{
+  font-size: 1.125rem;
+
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1128px;
+}
+
+h1{
+  color: var(--color-1);
+  font-family: "Playfair";
+  font-size: 3.8125rem;
+  margin-top: 0;
+
+}
+h2{
+  font-family: "Playfair";
+  font-size: 2.25rem;
+
+}
+
+.container p{
+  font-size: 2.25rem;
+  font-weight: 200;
+  letter-spacing: 4px;
+  margin-bottom: 0.5em;
+}
+
+main{
+  padding: 4em 0;
+}
+
+.main__text{  
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+
+.main__text h2{
+  color: var(--color-1);
+  text-align: center;
+  
+}
+
+.d-flex{
+  display: flex;
+  justify-content: top;
+  gap: 20px;
+  color: var(--color-3);
+  line-height: 1.5;
+}
+
+section{
+  background-color: var(--color-3);
+  padding: 4em 0;
+}
+.display{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+img {
+ min-width: 50%;
+ align-self: flex-start;
+}
+
+.section__text{
+  color: var(--color-2);
+}
+
+h2{
+  margin-top: 0;
+}
+footer{
+  background-color: var(--color-1);
+  padding: 4em 0;
+}
+
+.footer__text{
+  color: var(--color-2);
+}
