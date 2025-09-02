@@ -2,7 +2,7 @@
 <h1>Learning Project</h1>
 
 <h2>Features</h2>
-<p>This is just a simple layout component that I created from <a href="https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts">Kevin Powells Course on Css responsiveness.</a></p>
+<p>This is just a simple layout component that I created from <a href="https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts" target="_blank">Kevin Powells Course on Css responsiveness.</a></p>
 <p>Now there is still a lot missing like media queries and making a couple things more responsive, but the goal was really to get better at using Flexbox. I also learnt a lot about wrapping elements in different containers to achieve different results.</p>
 
 <h2>What I struggled on</h2>
